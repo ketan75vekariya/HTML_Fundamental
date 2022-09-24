@@ -1,9 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
   color: #444;
 }
@@ -92,3 +87,6 @@ a:active {
   font-style: italic;
 }
 /* Hyperlinks always style in this order to remember this use accronium LVHA */
+nav {
+  font-size: 1.125rem;
+}
