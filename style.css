@@ -61,3 +61,14 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+/* Pseudo Class */
+li:first-child {
+  font-weight: bold;
+}
+
+/* li:nth-child(even) {
+  color: red;
+} */
+article p:last-child {
+  color: red;
+}
