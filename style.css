@@ -1,6 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: sans-serif;
   color: #444;
+  border-top: 10px solid #1098ad;
+}
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+.post-header {
+  margin-bottom: 40px;
+}
+nav {
+  font-size: 1.125rem;
+}
+article {
+  margin-bottom: 60px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
 }
 h1,
 h2,
@@ -14,9 +42,11 @@ h1 {
 }
 h2 {
   font-size: 2.5rem;
+  margin-bottom: 30px;
 }
 h3 {
   font-size: 1.875rem;
+  margin-top: 40px;
 }
 h4 {
   font-size: 1.25;
@@ -26,9 +56,19 @@ h4 {
 p {
   font-size: 1.375rem;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 li {
   font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 /* footer p {
   font-size: 1rem;
@@ -48,14 +88,7 @@ li {
 .releted-list {
   list-style: none;
 }
-.main-header {
-  background-color: #f7f7f7;
-}
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-}
+
 /* Pseudo Class */
 li:first-child {
   font-weight: bold;
@@ -87,6 +120,3 @@ a:active {
   font-style: italic;
 }
 /* Hyperlinks always style in this order to remember this use accronium LVHA */
-nav {
-  font-size: 1.125rem;
-}
