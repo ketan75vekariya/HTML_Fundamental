@@ -29,6 +29,21 @@ p {
 li {
   font-size: 1.25rem;
 }
-footer p {
+/* footer p {
   font-size: 1rem;
+} */
+
+#author {
+  font-size: 1.125rem;
+  font-style: italic;
+}
+#copyright {
+  font-size: 1rem;
+}
+.releted-author {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.releted-list {
+  list-style: none;
 }
