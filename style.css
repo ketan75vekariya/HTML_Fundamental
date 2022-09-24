@@ -14,6 +14,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 .post-header {
   margin-bottom: 40px;
@@ -29,6 +30,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  width: 500px;
 }
 h1,
 h2,
@@ -120,3 +122,7 @@ a:active {
   font-style: italic;
 }
 /* Hyperlinks always style in this order to remember this use accronium LVHA */
+.post-img {
+  width: 100%;
+  height: auto;
+}
