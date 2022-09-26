@@ -186,3 +186,8 @@ h1 {
 nav {
   float: right;
 }
+.clearFlix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
