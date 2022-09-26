@@ -21,7 +21,6 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 .post-header {
   margin-bottom: 40px;
@@ -170,4 +169,20 @@ h2::after {
   position: absolute;
   top: -15px;
   right: -25px;
+}
+/* FLOAT */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+.author {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+h1 {
+  float: left;
+}
+nav {
+  float: right;
 }
